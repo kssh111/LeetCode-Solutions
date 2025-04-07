@@ -1,6 +1,7 @@
 package src.AddBinary;
 
-public class Solution {public static String addBinary(String a, String b) {
+public class Solution {
+    public static String addBinary(String a, String b) {
     StringBuilder result = new StringBuilder();
 
     int i = a.length() - 1;
